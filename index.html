@@ -88,23 +88,23 @@
                         Watch Trailer
                         </button>
                         <!-- Fullscreen Image Gallery -->
-<div id="galleryModal" class="fixed inset-0 bg-black bg-opacity-90 hidden justify-center items-center z-50">
-  <div class="relative w-full h-full flex flex-col justify-center items-center">
-    <!-- Close Button -->
-    <button id="closeGallery" class="absolute top-6 right-6 text-white text-3xl font-bold hover:text-gray-300">&times;</button>
-
-    <!-- Images -->
-    <div class="w-full h-full flex justify-center items-center">
-      <img id="galleryImage" src="https://via.placeholder.com/1200x700" alt="Gallery Image" class="max-h-[90vh] rounded-lg shadow-lg transition-all duration-500">
-    </div>
-
-    <!-- Navigation Buttons -->
-    <div class="absolute bottom-10 flex gap-6">
-      <button id="prevImage" class="text-white text-2xl hover:text-gray-400">&lt; Prev</button>
-      <button id="nextImage" class="text-white text-2xl hover:text-gray-400">Next &gt;</button>
-    </div>
-  </div>
-</div>
+                        <div id="galleryModal" class="fixed inset-0 bg-black bg-opacity-90 hidden justify-center items-center z-50">
+                      <div class="relative w-full h-full flex flex-col justify-center items-center">
+                        <!-- Close Button -->
+                        <button id="closeGallery" class="absolute top-6 right-6 text-white text-3xl font-bold hover:text-gray-300">&times;</button>
+                    
+                        <!-- Images -->
+                        <div class="w-full h-full flex justify-center items-center">
+                          <img id="galleryImage" src="https://via.placeholder.com/1200x700" alt="Gallery Image" class="max-h-[90vh] rounded-lg shadow-lg transition-all duration-500">
+                        </div>
+                    
+                        <!-- Navigation Buttons -->
+                        <div class="absolute bottom-10 flex gap-6">
+                          <button id="prevImage" class="text-white text-2xl hover:text-gray-400">&lt; Prev</button>
+                          <button id="nextImage" class="text-white text-2xl hover:text-gray-400">Next &gt;</button>
+                        </div>
+                      </div>
+                    </div>
                     </div>
                 </div>
 
@@ -264,6 +264,284 @@
             </div>
         </div>
     </section>
+
+    <div class="py-16 md:py-24">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+
+            <!-- Header Section -->
+            <header class="text-center mb-12 md:mb-16">
+                <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight">
+                    Our Product <span class="header-gradient">Strategy Canvas</span>
+                </h1>
+                <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
+                    A strategic deep-dive into the 11 core elements defining our product, its value, and its path to market.
+                </p>
+            </header>
+
+            <!-- Grid container for the 11 elements -->
+            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-8">
+
+                <!-- 1. Problem Statement -->
+                <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-100 transform transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+                    <h2 class="text-xl font-bold text-gray-800">1. Problem Statement</h2>
+                    
+                    <div class="mt-4">
+                        <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider">Core Question</h3>
+                        <p class="text-sm text-gray-800 font-medium mt-1">What top problems are we solving for our customers?</p>
+                    </div>
+                    
+                    <div class="mt-4">
+                        <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider">Relevance</h3>
+                        <p class="text-sm text-gray-700 mt-1">Frames feature priorities and validates whether the product addresses real pain points.</p>
+                    </div>
+                    
+                    <div class="mt-4 bg-gray-200 p-4 rounded-lg border border-gray-800">
+                        <h3 class="text-xs font-semibold text-blue-800 uppercase tracking-wider">Key Product Implication </h3>
+                        <p class="text-sm text-blue-900 mt-2"><strong>Problem:</strong> Teenagers & young adults face high stress, anxiety, and lack a safe space for self-expression.</p>
+                        <p class="text-sm text-blue-900 mt-1"><strong>Implication:</strong> The product must be non-competitive, gentle, and private-first. "Winning" is defined as "expressing."</p>
+                    </div>
+                </div>
+
+                <!-- 2. Customer Segments -->
+                <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-100 transform transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+                    <h2 class="text-xl font-bold text-gray-800">2. Customer Segments</h2>
+                    
+                    <div class="mt-4">
+                        <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider">Core Question</h3>
+                        <p class="text-sm text-gray-800 font-medium mt-1">Who are we creating value for?</p>
+                    </div>
+                    
+                    <div class="mt-4">
+                        <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider">Relevance </h3>
+                        <p class="text-sm text-gray-700 mt-1">Defines target users, personas, and use cases. Guides UX/UI design and testing.</p>
+                    </div>
+                    
+                    <div class="mt-4 bg-blue-50 p-4 rounded-lg border border-blue-200">
+                        <h3 class="text-xs font-semibold text-blue-800 uppercase tracking-wider">Key Product Implication </h3>
+                        <ul class="list-disc list-inside space-y-1 mt-2 text-sm text-blue-900">
+                            <li><strong>Target 1 (Core):</strong> Teens/Young Adults (15-35) seeking mindfulness and stress relief.</li>
+                            <li><strong>Target 2 (Wellness):</strong> Educators & counselors needing mental wellness tools.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 3. Unfair Advantage -->
+                <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-100 transform transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+                    <h2 class="text-xl font-bold text-gray-800">3. Unfair Advantage </h2>
+                    
+                    <div class="mt-4">
+                        <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider">Core Question</h3>
+                        <p class="text-sm text-gray-800 font-medium mt-1">What unique asset or capability can't be easily copied?</p>
+                    </div>
+                    
+                    <div class="mt-4">
+                        <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider">Relevance</h3>
+                        <p class="text-sm text-gray-700 mt-1">Influences defensive product design and long-term differentiation.</p>
+                    </div>
+                    
+                    <div class="mt-4 bg-gray-200 p-4 rounded-lg border border-gray-800">
+                        <h3 class="text-xs font-semibold text-blue-800 uppercase tracking-wider">Our "Secret Sauce" </h3>
+                        <ul class="list-decimal list-inside space-y-1 mt-2 text-sm text-blue-900">
+                            <li>Your unique, healing art style.</li>
+                            <li>The proprietary "Art-Psychology" system.</li>
+                            <li>The AI-powered player-drawn shop generation.</li>
+                            <li>The integrated, secure network of professional therapists.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 4. Value Proposition -->
+                <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-100 transform transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+                    <h2 class="text-xl font-bold text-gray-800">4. Value Proposition </h2>
+                    
+                    <div class="mt-4">
+                        <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider">Core Question</h3>
+                        <p class="text-sm text-gray-800 font-medium mt-1">What value are we delivering?</p>
+                    </div>
+                    
+                    <div class="mt-4">
+                        <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider">Relevance </h3>
+                        <p class="text-sm text-gray-700 mt-1">Shapes core features and benefits. Determines MVP scope.</p>
+                    </div>
+                    
+                    <div class="mt-4 bg-blue-50 p-4 rounded-lg border border-blue-200">
+                        <h3 class="text-xs font-semibold text-blue-800 uppercase tracking-wider">Key Product Implication</h3>
+                        <p class="text-sm text-blue-900 mt-2"><strong>Core Value:</strong> A safe, beautiful, emotional space for healing through art and play.</p>
+                        <p class="text-sm text-blue-900 mt-1"><strong>Premium Value:</strong> Direct, secure access to professional psychological help, turning gameplay into tangible wellness.</p>
+                    </div>
+                </div>
+
+                <!-- 5. Channels -->
+                <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-100 transform transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+                    <h2 class="text-xl font-bold text-gray-800">5. Channels</h2>
+                    
+                    <div class="mt-4">
+                        <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider">Core Question</h3>
+                        <p class="text-sm text-gray-800 font-medium mt-1">How do we reach and deliver value to customers?</p>
+                    </div>
+                    
+                    <div class="mt-4">
+                        <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider">Relevance </h3>
+                        <p class="text-sm text-gray-700 mt-1">Influences product architecture and integration needs (e.g., app store, web).</p>
+                    </div>
+                    
+                    <div class="mt-4 bg-gray-200 p-4 rounded-lg border border-gray-800">
+                        <h3 class="text-xs font-semibold text-blue-800 uppercase tracking-wider">Key Product Implication</h3>
+                        <ul class="list-decimal list-inside space-y-1 mt-2 text-sm text-blue-900">
+                            <li><strong>Digital:</strong> App Store, Google Play, Steam.</li>
+                            <li><strong>Marketing:</strong> TikTok/YouTube (emotional shorts, art creation).</li>
+                            <li><strong>Professional:</strong> Partnerships with mental health NGOs and universities.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 6. Customer Relationships -->
+                <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-100 transform transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+                    <h2 class="text-xl font-bold text-gray-800">6. Customer Relationships </h2>
+                    
+                    <div class="mt-4">
+                        <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider">Core Question</h3>
+                        <p class="text-sm text-gray-800 font-medium mt-1">What type of relationship do customers expect?</p>
+                    </div>
+                    
+                    <div class="mt-4">
+                        <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider">Relevance</h3>
+                        <p class="text-sm text-gray-700 mt-1">Impacts design of user support, onboarding flows, and retention mechanisms.</p>
+                    </div>
+                    
+                    <div class="mt-4 bg-blue-50 p-4 rounded-lg border border-blue-200">
+                        <h3 class="text-xs font-semibold text-blue-800 uppercase tracking-wider">Key Product Implication</h3>
+                        <ul class="list-decimal list-inside space-y-1 mt-2 text-sm text-blue-900">
+                            <li><strong>In-Game:</strong> A supportive, creative, non-toxic community.</li>
+                            <li><strong>App-Level:</strong> Highly personalized experiences (as per your feedback), such as personalized email summaries of emotional insights, or notifications at the end of transactions ("Your creation has inspired 3 other players!").</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 7. Revenue Streams -->
+                <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-100 transform transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+                    <h2 class="text-xl font-bold text-gray-800">7. Revenue Streams</h2>
+                    
+                    <div class="mt-4">
+                        <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider">Core Question</h3>
+                        <p class="text-sm text-gray-800 font-medium mt-1">How does the business earn money?</p>
+                    </div>
+                    
+                    <div class="mt-4">
+                        <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider">Relevance </h3>
+                        <p class="text-sm text-gray-700 mt-1">Guides pricing logic, feature tiering, and product roadmap prioritization.</p>
+                    </div>
+                    
+                    <div class="mt-4 bg-gray-200 p-4 rounded-lg border border-gray-800">
+                        <h3 class="text-xs font-semibold text-blue-800 uppercase tracking-wider">Key Product Implication </h3>
+                        <ul class="list-decimal list-inside space-y-1 mt-2 text-sm text-blue-900">
+                            <li><strong>Freemium:</strong> F2P with optional cosmetics (outfits, brushes).</li>
+                            <li><strong>Subscription (Key):</strong> "Premium Wellness" for therapist access & reports.</li>
+                            <li><strong>B2B:</strong> "Studio Edition" licenses for schools/clinics.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 8. Key Resources -->
+                <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-100 transform transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+                    <h2 class="text-xl font-bold text-gray-800">8. Key Resources </h2>
+                    
+                    <div class="mt-4">
+                        <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider">Core Question </h3>
+                        <p class="text-sm text-gray-800 font-medium mt-1">What assets are critical to deliver value?</p>
+                    </div>
+                    
+                    <div class="mt-4">
+                        <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider">Relevance</h3>
+                        <p class="text-sm text-gray-700 mt-1">Determines tech stack, infrastructure, and team skills required.</p>
+                    </div>
+                    
+                    <div class="mt-4 bg-blue-50 p-4 rounded-lg border border-blue-200">
+                        <h3 class="text-xs font-semibold text-blue-800 uppercase tracking-wider">Key Product Implication </h3>
+                        <ul class="list-decimal list-inside space-y-1 mt-2 text-sm text-blue-900">
+                            <li><strong>Talent:</strong> Your art & creative direction.</li>
+                            <li><strong>Tech:</strong> Game engine (Unity/Unreal), AI generation models, secure server backend (HIPAA-compliant).</li>
+                            <li><strong>Partners:</strong> A vetted network of licensed psychologists.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 9. Key Activities -->
+                <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-100 transform transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+                    <h2 class="text-xl font-bold text-gray-800">9. Key Activities </h2>
+                    
+                    <div class="mt-4">
+                        <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider">Core Question </h3>
+                        <p class="text-sm text-gray-800 font-medium mt-1">What must the company do to deliver its value proposition?</p>
+                    </div>
+                    
+                    <div class="mt-4">
+                        <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider">Relevance</h3>
+                        <p class="text-sm text-gray-700 mt-1">Translates into development sprints, feature milestones, and testing priorities.</p>
+                    </div>
+                    
+                    <div class="mt-4 bg-gray-200 p-4 rounded-lg border border-gray-800">
+                        <h3 class="text-xs font-semibold text-blue-800 uppercase tracking-wider">Key Product Implication </h3>
+                        <ul class="list-decimal list-inside space-y-1 mt-2 text-sm text-blue-900">
+                            <li>Emotional game design.</li>
+                            <li>Building & training the "draw-a-shop" AI generator.</li>
+                            <li>Building the secure therapist connection backend.</li>
+                            <li>Using AI tools to build our own website, logo, and marketing pics.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 10. Key Partners -->
+                <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-100 transform transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+                    <h2 class="text-xl font-bold text-gray-800">10. Key Partners </h2>
+                    
+                    <div class="mt-4">
+                        <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider">Core Question </h3>
+                        <p class="text-sm text-gray-800 font-medium mt-1">Who helps us deliver value or reduce risk?</p>
+                    </div>
+                    
+                    <div class="mt-4">
+                        <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider">Relevance </h3>
+                        <p class="text-sm text-gray-700 mt-1">Shapes build-vs-buy decisions and integration planning with external vendors.</p>
+                    </div>
+                    
+                    <div class="mt-4 bg-blue-50 p-4 rounded-lg border border-blue-200">
+                        <h3 class="text-xs font-semibold text-blue-800 uppercase tracking-wider">Key Product Implication</h3>
+                        <ul class="list-decimal list-inside space-y-1 mt-2 text-sm text-blue-900">
+                            <li><strong>CRITICAL:</strong> Licensed Psychologists & Therapists (for consultation & as service providers).</li>
+                            <li>Mental health NGOs (for guidance & reach).</li>
+                            <li>App Stores (Apple, Google, Steam).</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 11. Cost Structure -->
+                <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-100 transform transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 md:col-span-2 xl:col-span-1">
+                    <h2 class="text-xl font-bold text-gray-800">11. Cost Structure</h2>
+                    
+                    <div class="mt-4">
+                        <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider">Core Question</h3>
+                        <p class="text-sm text-gray-800 font-medium mt-1">What are the major costs and resource needs?</p>
+                    </div>
+                    
+                    <div class="mt-4">
+                        <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider">Relevance</h3>
+                        <p class="text-sm text-gray-700 mt-1">Defines budget allocation for product design, prototyping, and scaling.</p>
+                    </div>
+                    
+                    <div class="mt-4 bg-gray-200 p-4 rounded-lg border border-gray-800">
+                        <h3 class="text-xs font-semibold text-blue-800 uppercase tracking-wider">Key Product Implication</h3>
+                        <ul class="list-decimal list-inside space-y-1 mt-2 text-sm text-blue-900">
+                            <li><strong>Must-Spend:</strong> Server costs, therapist network management/payment, core art/sound.</li>
+                            <li><strong>Can-Save:</strong> Using AI for website/logo creation, community-driven marketing. (As per your "Financial Strategy").</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="py-20 bg-white/50">
