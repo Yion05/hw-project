@@ -27,7 +27,11 @@
                 <a href="#features" class="font-serif text-sm text-[#5C4033] transition-colors hover:text-[#D4A574]">Game Levels</a>
                 <a href="#testimonials" class="font-serif text-sm text-[#5C4033] transition-colors hover:text-[#D4A574]">Reviews</a>
             </nav>
-            <button class="bg-gradient-to-r from-[#6B9BD1] to-[#B8A4D4] text-white px-6 py-2 rounded-md hover:opacity-90 transition-opacity">Play Now</button>
+            <a href="https://coastalworld.com/" target="_blank" rel="noopener noreferrer">
+                <button class="bg-gradient-to-r from-[#6B9BD1] to-[#B8A4D4] text-white px-6 py-2 rounded-md hover:opacity-90 transition-opacity">
+                Play Now
+                </button>
+            </a>
         </div>
     </header>
 
@@ -75,12 +79,32 @@
                     </div>
 
                     <div class="flex flex-col gap-4 sm:flex-row">
+                        <a href="https://coastalworld.com/" target="_blank" rel="noopener noreferrer">
                         <button class="bg-gradient-to-r from-[#6B9BD1] to-[#B8A4D4] text-white px-8 py-3 rounded-md hover:opacity-90 transition-opacity text-lg font-semibold">
                             Start Your Journey
                         </button>
-                        <button class="border-2 border-[#8B7355] text-[#5C4033] hover:bg-white/50 bg-transparent px-8 py-3 rounded-md transition-all text-lg font-semibold">
-                            Watch Trailer
+                        </a>
+                        <button id="openGallery" class="border-2 border-[#8B7355] text-[#5C4033] hover:bg-white/50 bg-transparent px-8 py-3 rounded-md transition-all text-lg font-semibold">
+                        Watch Trailer
                         </button>
+                        <!-- Fullscreen Image Gallery -->
+<div id="galleryModal" class="fixed inset-0 bg-black bg-opacity-90 hidden justify-center items-center z-50">
+  <div class="relative w-full h-full flex flex-col justify-center items-center">
+    <!-- Close Button -->
+    <button id="closeGallery" class="absolute top-6 right-6 text-white text-3xl font-bold hover:text-gray-300">&times;</button>
+
+    <!-- Images -->
+    <div class="w-full h-full flex justify-center items-center">
+      <img id="galleryImage" src="https://via.placeholder.com/1200x700" alt="Gallery Image" class="max-h-[90vh] rounded-lg shadow-lg transition-all duration-500">
+    </div>
+
+    <!-- Navigation Buttons -->
+    <div class="absolute bottom-10 flex gap-6">
+      <button id="prevImage" class="text-white text-2xl hover:text-gray-400">&lt; Prev</button>
+      <button id="nextImage" class="text-white text-2xl hover:text-gray-400">Next &gt;</button>
+    </div>
+  </div>
+</div>
                     </div>
                 </div>
 
@@ -449,7 +473,7 @@
                         <li><a href="#about" class="transition-colors hover:text-[#6B9BD1]">About Us</a></li>
                         <li><a href="#" class="transition-colors hover:text-[#6B9BD1]">Our Mission</a></li>
                         <li><a href="#" class="transition-colors hover:text-[#6B9BD1]">Team</a></li>
-                        <li><a href="#" class="transition-colors hover:text-[#6B9BD1]">Contact</a></li>
+                        <li><a href="#" class="transition-colors hover:text-[#6B9BD1]">Contact:01120663557</a></li>
                     </ul>
                 </div>
 
@@ -471,6 +495,7 @@
             </div>
         </div>
     </footer>
+        <script type="module" src="script.js"></script>
 
 </body>
 </html>
